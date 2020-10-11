@@ -1,0 +1,153 @@
+:root {
+    --blue-color: #336699;
+}
+
+body {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    display: inline-table;
+    margin-left: 250px;
+} 
+
+input {
+    background-color: var(--blue-color);
+    color: white;
+    border: 1px solid var(--blue-color);
+    padding: 10px 40px 10px 40px;  
+    margin-left: 5px;
+}
+
+.firstparagraph {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-right: 10px;
+}
+
+span {
+    font-size: small;
+}
+
+.secondspan {
+     float: right; 
+}
+
+/* #techphoto {
+    height: 260px;
+    width: 728px;
+} */
+
+#container {
+    display: inline-table;
+    margin-left: 250px;
+}
+
+.column1 {
+    background-color: whitesmoke;
+    float: left;
+    width: auto;
+    border: 1px solid whitesmoke;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: all;
+}
+
+hr {
+    border-top: 1px dashed black;
+}
+
+#secondphoto {
+      width: 192px;
+      height: 60px;
+      border: 1px solid white;
+}
+
+#secondparagraph {
+      width: 220px;
+      height: 140px;
+}
+
+#thirdparagraph {
+    color: var(--blue-color);
+    float: right;
+}
+
+#hr2 {
+    width: 730px;
+}
+
+.column2 {
+    background-color: whitesmoke;
+    float: left;
+    width: auto;
+    border: 1px solid whitesmoke;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 1px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: all;
+}
+
+#img1 {
+    float: left;
+    padding: 15px;
+}
+
+#p5 {
+    width: 490px;
+    height: 106px;
+}
+
+#p6 {
+    color: var(--blue-color);
+    float: right;
+}
+
+#p7 {
+    color: var(--blue-color);
+    margin: 14px;
+    margin-left: 10px;
+}
+
+.pictureContainer {
+    padding-top: 5px;
+    align-items: center;
+
+}
+
+#img3 {
+    float: left;
+    padding: 1px;
+    width: 145px;
+}
+
+#p8 {
+    
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+#lastSpan {
+    float: right;
+    padding-left: 228px;
+
+}
